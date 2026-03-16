@@ -1,0 +1,243 @@
+body {
+    /*<weight>: Use a value from 300 to 800*/
+    font-family: "Merriweather Sans", "sans-serif";
+    margin: 0;
+    background-color: #fbf6f0;
+}
+
+/*header content start*/
+header {
+    background-color: #fcb31f;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #3f372f;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+/*nav content start*/
+nav {
+    background-color: #3f372f;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 10px;
+    margin: 0;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fbf6f0;
+    font-weight: 500;
+}
+
+nav li.active a {
+    background-color: #fbf6f0;
+    color: #681011;
+}
+
+nav li.active a:hover {
+    color: #681011;
+}
+
+nav li a:hover {
+    color: #fcb31f;
+}
+
+/*start of main stuff*/
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #681011;
+    font-weight: 800;
+}
+
+main h2 {
+    color: #978c82;
+    margin-bottom: .5rem;
+    font-weight: 800;
+}
+
+main p {
+    color: #3f372f;
+    line-height: 1.7rem;
+}
+
+main ol {
+    padding: 1rem 30px;
+    color: #fbf6f0;
+    background-color: #3f372f;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #681011;
+}
+
+main dl dt {
+    color: #681011;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #3f372f;
+}
+
+main ul {
+    padding: 1rem 30px;
+    background-color: #3f372f;
+    color: #fbf6f0;
+    list-style: square;
+    width: 250px;
+    border-radius: 10px;
+    border: 2px solid #681011;
+}
+
+main a {
+    color: #681011;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #fcb31f;
+}
+
+main address a {
+    color: #fbf6f0;
+}
+
+main address a:hover {
+    color: #fcb31f;
+}
+
+main address {
+    font-style: normal;
+    background-color: #3f372f;
+    color: #fbf6f0;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 2px solid #681011;
+    width: 250px;
+    margin: 20px 0;
+}
+
+figure.hometable {
+    width: 40%;
+    float: right;
+    margin: 0 0 0 10px;
+}
+
+figure.hometable img {
+    width: 100%;
+    height: auto;
+}
+
+figure.hometable figcaption {
+    text-align: center;
+    font-size: .9rem;
+    color: #3f372f;
+}
+
+/*start of gallery stuff*/
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+div.gallery figure {
+    margin: 0;
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #3f372f
+}
+
+.myForm fieldset {
+    border: 2px solid #681011;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend {
+    color: #3f372f;
+    font-size: .8rem;
+}
+
+.myForm label {
+    margin: .5rem;
+    color: #3f372f
+}
+
+.myForm label,
+.myForm select,
+.myForm [type=text],
+.myForm [type=tel],
+.myForm [type=email],
+.myForm textarea {
+    display: block;
+}
+
+.myForm [type=text],
+.myForm [type=tel],
+.myForm [type=email],
+.myForm select,
+.myForm textarea {
+    border: solid 1px #681011;
+    padding: .3rem;
+    width: 250px;
+    border-radius: 10px;
+    font-family: "Merriweather Sans", "sans-serif";
+    color: #3f372f;
+}
+
+.myForm :required {
+    background-color: #fcb31f30;
+}
+
+.myForm textarea {
+    background-color: #fcb31f30;
+    border: solid 2px #681011;
+    height: 5rem;
+}
+
+.myForm [type=submit] {
+    background-color: #fcb31f30;
+    border: solid 2px #681011;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #3f372f;
+    margin: 1rem;
+    font-family: "Merriweather Sans", "sans-serif";
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+
+/*beginning of footer stuff*/
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #fcb31f;
+    clear: both;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #3f372f;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
